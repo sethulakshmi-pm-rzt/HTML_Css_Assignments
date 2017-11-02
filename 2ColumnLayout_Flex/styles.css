@@ -1,0 +1,37 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #f48c42;
+	margin: 0;
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+}
+
+.contentWrapper {
+	height: calc(100% - 80px);
+	display: flex;
+}
+
+.firstPara {
+	width: 200px;
+	background-color: #c0ce40;
+  	overflow: auto;
+}
+
+.secondPara {
+	flex: 1;	
+	border-left: 1px solid;
+	box-sizing: border-box;
+	background-color: #c0ce40;
+	overflow: auto;
+}
+h1 {
+	height: 40px;
+	margin: 0;
+	padding: 20px;
+}

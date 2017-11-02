@@ -1,0 +1,104 @@
+<!-- this task path is /home/sethulakshmi/git/HTML_Css_Assignments/HTML_BASICS/htmlTags.html -->
+
+<!-- html 5 -->
+<!DOCTYPE html> 
+
+ <!-- html document language is US English -->
+<html lang="en-US">
+<head>
+	<title> HTML Tags</title>
+	<!-- html head element contain metadata, here it contain the data about html document.UTF is unicode Transaformation Format. Metadata is a set of data, that describes and gives information about other data. Metadata wont displayed on the page, but it will constain the details about author, last modified etc -->
+	<meta charset="utf-8">
+</head>
+
+<!-- <body bgcolor="red"> is same as the <body style="background-color: red"> -->
+<body style="background-color: #f4df42">
+
+	<!-- use h tag for heading only -->
+	<h1>Learning HTML Tags</h1>
+	<a href="http://www.razorthink.com/">Razorthink</a><br />
+
+	<img 
+	src="https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg" 
+	alt="razorthink image" 
+	width="600" 
+	height="500"
+	style="float: right;">
+	<br />
+	<!-- <cite>abc </cite> and <cite "abc"> is entirely different, see the examples below -->
+	<p><cite>Razorthink</cite>by Edvard Munch. Painted in 1893</p>
+
+	<!-- for p tag it have some default white space before and afer the paragraph -->
+	<p style="color: red">Razorthink, Inc. is an advanced software development company that is building an augmented brain for business. 
+	An artificial intelligence that is specifically designed to help business do business faster, better, and be more insightful.</p>
+
+	<!-- html pre tag defines the preformatted text -->
+	<!-- style tag used to give css styles color, size font family etc -->
+	<pre style="font-family: FreeMono; 
+	   	 color: 5d7ea3; 
+		 font-size: 100%; 
+	     text-align: left;">
+		Razorthink
+		17th Cross Rd, 
+		Siddanna Layout, 
+		Banashankari Stage II, 
+		Banashankari, 
+		Bengaluru, 
+		Karnataka 560070
+	</pre>
+	
+	<!-- hr tag gives a thematic change in the content -->
+	<hr>
+	
+	<!-- Mouse over this paragraph, to display the title attribute as a tooltip -->
+	<h2 title="Remove double Quotes to display only first word">Mouse Over this text</h2>
+
+	<!-- We can use 'disabled' for disabling the input element,  -->
+	<div>
+		First Name : <input type="text" name="fname"><br />
+		Last Name : <input type="text" name="lname" value="Razorthink" disabled="">
+	</div>
+
+	<h3>Text Formatting</h3>
+	<p>
+		The following Text is 
+		<!-- <b> and <strong> is same and <i> and <em> is same, but strong and em means important -->
+		<b>Bold, </b> 
+		<i>Italic and </i>
+		<u>Underlined. </u> <br />
+		<em>Emphasized Text</em> <br />
+		<strong>This is strong</strong> <br />
+		<mark>Marked Text</mark> <br />
+		<small>Small Text</small> <br />
+		<del>Deleted Text</del> <br />
+		<ins>inserted Text</ins> <br />
+		<sub>subscript</sub> and this is <sup>superscript </sup> 
+	</p>
+
+	<!-- border style can be dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+	border-width can be 5px, 2px, 2px 10px 4px 20px etc
+	border-color can be red green blue yellow, red etc; -->
+
+	<h3 style="border: 2px double DodgerBlue;">HTML Quotations</h3>
+
+	<!-- cite attribute gives the source of the quotation
+		<q> for short quotations or for double quotes.
+		<abbr> for abbreviations
+		</address> for contact information
+		<bdo> Bi directional override, direction can be rtl or ltr, rtl: Right To Left, default is ltr.
+	 -->
+	<p>Here is the quote
+		<blockquote cite="https://en.wikipedia.org/wiki/Forestry_in_India">
+			Forestry in India is a significant rural industry and a <q>major environmental resource</q>. India is one of the ten most forest-rich countries of the world.The 
+			<abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+			<address>Address<br />Kerala<br /> Ernakulam</address>
+			<bdo dir="rtl">Right To Left</bdo>
+		</blockquote>
+	</p>
+
+	<!-- css styles can be 3 types. Inline: using style attribute in html elements, Internal: using <style> in head section, External: using external css file.  padding and margin ca use to set spaces.-->
+	
+
+</body>
+</html>
+

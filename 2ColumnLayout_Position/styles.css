@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #f48c42;
+	margin: 0;
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+
+}
+
+.contentWrapper {
+	height: calc(100% - 80px);
+}
+
+.firstPara {
+
+	width: 200px;
+	background-color: #c0ce40;
+  	height: 100%;
+  	overflow: auto;
+}
+
+.secondPara {
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	left: 	200px;
+	width: calc(100% - 200px);
+	border-left: 1px solid;
+	box-sizing: border-box;
+	background-color: #c0ce40;
+	overflow: auto;
+}
+h1 {
+	height: 40px;
+	margin: 0;
+	padding: 20px;
+}

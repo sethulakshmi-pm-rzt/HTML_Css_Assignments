@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Second HTML Tag Pgm</title>
+<link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+	<!-- href target can be _blank, _self, _parent, _top, framename 
+	css can be a:link, visited, hover, active for color changes
+	-->
+	<a href="http://www.razorthink.com/" target="_blank">HTML</a><br /><br />
+
+	<!-- image act as link -->
+	<a href="http://www.razorthink.com/">
+		<img src="images.png" alt="Razorthink images" >
+	</a>
+
+	<!-- href linking inside the html page -->
+	<p><a href="#C7">Jump to Chapter 7</a></p>
+
+	<h2>Chapter 1</h2>
+	<p>This chapter explains ba bla bla</p>
+
+	<h2>Chapter 2</h2>
+	<p>This chapter explains ba bla bla</p>
+
+	<h2>Chapter 3</h2>
+	<p>This chapter explains ba bla bla</p>
+	
+	<h2>Chapter 4</h2>
+	<p>This chapter explains ba bla bla</p>
+
+	<h2>Chapter 5</h2>
+	<p>This chapter explains ba bla bla</p>
+
+	<h2>Chapter 6</h2>
+	<p>This chapter explains ba bla bla</p>
+
+	<h2 id="C7">Chapter 7</h2>
+	<p>This chapter explains ba bla bla</p>
+
+	<p>
+		Click on the flowers of light
+	</p>
+	<img src="onam.jpg" alt="onamImage" usemap="#onam" width="400" height="400">
+
+<map name="onam">
+  <area shape="circle" coords="34,44,270,350" alt="Sun" href="htmlTags.html"/>
+  <area shape="rect" coords="290,172,333,250" alt="Mercury" href="phone.htm"/>
+  <area shape="circle" coords="337,300,44" alt="Venus" href="coffee.htm"/>
+</map>
+<table style="width: 100%">
+	<caption>Table Caption</caption>
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<td>Ram</td>
+		<td>66</td>	
+	</tr>
+	<tr>
+		<!-- colspan and rowspan for merging  -->
+		<td colspan="2">Seetha</td>
+		
+	</tr>
+</table>
+
+<!-- unordered list and ordered list
+ul list style type can be disc, square, circle, none
+ol list can be 1, A, a, I, i -->
+<ul style="list-style-type: disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<!-- iframe for display web page with in a web page -->
+<iframe src="htmlTags.html" height="300px" width="400px" style="border: none;"></iframe>
+<br />
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Click Here</button>
+<p id="demo"></p>
+	
+</button>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #f48c42;
+	margin: 0;
+	height: 100%;
+}
+h1 {
+	height: 40px;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.wrapper {
+	height: 100%;
+}
+
+.contentWrapper {
+	height: calc(100% - 80px);
+	background-color: #c0ce40;
+}
+
+.firstPara {
+	width: 150px;
+  	height: 100%;
+  	overflow: auto;
+}
+
+.secondPara {
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	left: 150px;
+	right: 200px; 
+	border-left: 1px solid;
+	box-sizing: border-box;
+	background-color: #c0ce40;
+	overflow: auto;
+}
+.thirdPara {
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	right: 0;	
+	width: 200px;
+	box-sizing: border-box;
+	border-left: 1px solid;
+	overflow: auto;
+}
+button {
+	color: black;
+	background-color: #ff6699;
+}

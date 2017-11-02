@@ -1,0 +1,44 @@
+html {
+	height: 100%;
+}
+body {
+	background-color: #f48c42;
+	margin: 0;
+	height: 100%;
+}
+h1 {
+	height: 40px;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.wrapper {
+	height: 100%;
+}
+
+.contentWrapper {
+	height: calc(100% - 80px);
+	display: flex;
+	background-color: #c0ce40;
+}
+
+.firstPara {
+  	overflow: auto;
+  	width: 150px;
+}
+
+.secondPara {
+	flex: 1;	
+	border-left: 1px solid;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.thirdPara {
+	width: 200px;
+	box-sizing: border-box;
+	border-left: 1px solid;
+	overflow: auto;
+}

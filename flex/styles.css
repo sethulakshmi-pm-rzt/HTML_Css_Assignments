@@ -1,0 +1,47 @@
+.outerBlock {
+	display: flex;
+	flex-direction: row;
+/* 	flex-direction can be row, olumn and its reverse
+align-items: flex-end;
+align-items can be flex-start, flex-end stretch, center, and baseline; default is stretch.
+flex-wrap: wrap;
+flex-wrap can be 3 types: nowrap, wrap, wrap-reverse; default is nowrap
+
+align-content: center;
+align-content can be stretch, center, flex-start, flex-end, center, space-between, space-around; default is stretch.
+ */
+	width: 600px;
+	height: 500px;
+	background-color: red;
+	margin: 10px;
+	padding: 10px;
+}
+
+.innerBlock {
+	width: 100px;
+	
+	background-color: green;
+	padding: 10px;
+	margin: 5px;
+}
+/* 
+this will gives the order of item which have to display
+.first {
+	order: 1;
+}
+
+we can follow the below method for giving special style for first child, where all the properties of that child have been saved in innerBlock.
+
+for perfect centring we can give margin as auto
+.innerBlock:first-child {
+	margin: auto;
+}
+position as static, absolute, fixed, relative, sticky, initial, inherit; 
+
+we can set flex values to each item as giving proportions
+.item {
+	flex: 3;
+}
+.item2 {
+	flex: 4
+} */
